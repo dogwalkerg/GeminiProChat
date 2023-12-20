@@ -215,7 +215,7 @@ export default () => {
         fallback={() => (
           <div class="gen-cb-wrapper">
             <span>人工智能正在思考...</span>
-            <div class="gen-cb-stop" onClick={stopStreamFetch}>Stop</div>
+            <div class="gen-cb-stop" onClick={stopStreamFetch}>停止</div>
           </div>
         )}
       >
